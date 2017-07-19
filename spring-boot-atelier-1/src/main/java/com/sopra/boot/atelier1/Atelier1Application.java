@@ -2,9 +2,11 @@ package com.sopra.boot.atelier1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
+@EnableEurekaClient
 @SpringBootApplication
 public class Atelier1Application {
 
